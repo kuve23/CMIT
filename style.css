@@ -1,0 +1,61 @@
+
+
+
+*{
+    background-color: #FFF4E0;
+}
+
+div{
+    display: inline-block;
+    width:50%
+}
+header>h2{
+    font-family: 'Rubik Wet Paint', cursive;
+}
+header>h1{
+    font-family: 'Ysabeau', sans-serif;
+
+}
+
+header{
+    padding-bottom: 5%;
+}
+img{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+div>h2{
+    font-family: 'Bruno Ace', cursive;
+}
+
+.picB{
+    float: left;
+}
+
+.PicD{
+    float: right;
+    
+}
+
+.picD>img{
+    padding-left: 50px;
+}
+
+footer{
+    text-align: right;
+    padding-top: 9%;
+}
+
+
+@media(min-width:319px) and (max-width:480px){
+    div{
+        display: block;
+    }
+    .picD>img{
+        padding-left: 0px;
+    }
+  }
+
+
